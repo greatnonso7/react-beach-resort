@@ -117,6 +117,9 @@ h6 {
   transition: var(--mainTransition);
   list-style-type: none;
 }
+.nav-show {
+  display: flex;
+}
 .nav-links a {
   display: block;
   text-decoration: none;
@@ -252,6 +255,7 @@ h6 {
 }
 .services h6 {
   letter-spacing: var(--mainSpacing);
+  text-transform: capitalize;
 }
 .services p {
   width: 80%;
