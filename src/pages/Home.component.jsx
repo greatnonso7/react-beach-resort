@@ -3,6 +3,7 @@ import Hero from '../components/Hero.component';
 import Banner from '../components/Banner.component';
 import Services from '../components/Services.component';
 import FeaturedRooms from '../components/FeaturedRooms.component';
+import Button from '../components/StyledHero.component';
 
 import { Link } from 'react-router-dom'
 
@@ -17,6 +18,7 @@ export const Home = () => {
             
             <Services />
             <FeaturedRooms />
+            <Button>hello world </Button>
         </React.Fragment>
         
     )
