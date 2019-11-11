@@ -135,6 +135,9 @@ h6 {
   color: var(--primaryColor);
 }
 
+.nav-list {
+  display: contents;
+}
 .show-nav {
   height: 100px;
 }
